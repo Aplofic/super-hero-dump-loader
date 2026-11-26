@@ -24,7 +24,7 @@ Laboratório de engenharia reversa e estudo de memória de um jogo Unity **Mono*
 
 ## Compilando
 
-Requer Visual Studio com as ferramentas de build C++ (testado com VS 18 Community):
+Requer Visual Studio com as ferramentas de build C++ (testado com VS 18 Community). Para compilar **todos** os binários, sondas, explicação de cada flag e solução de problemas, veja [docs/PROGRAMACAO.md](docs/PROGRAMACAO.md). Comando mínimo do overlay:
 
 ```bat
 call "C:\Program Files\Microsoft Visual Studio\18\Community\VC\Auxiliary\Build\vcvars64.bat"
@@ -74,6 +74,7 @@ C:\Users\Melinsky\AppData\Local\SuperHeroRoyale\jogo\.shr-versao-rVkyRE\esp_stat
 
 ## Documentação
 
+- [PROGRAMACAO.md](docs/PROGRAMACAO.md) — **guia completo**: pré-requisitos, comandos de compilação de todos os binários, referência da CLI, arquitetura do código, como estender e portar para outra versão, solução de problemas.
 - [DUMP.md](docs/DUMP.md) — como o dump foi feito, âncora do Mono, classes, offsets e cadeias de ponteiro.
 - [ESP.md](docs/ESP.md) — arquitetura do overlay, desenho GDI, esqueleto e escritas pontuais.
 - [ANTICHEAT.md](docs/ANTICHEAT.md) — como um anti-cheat detectaria este tipo de projeto, ideias de melhoria defensiva e notas educacionais sobre ofuscação.
