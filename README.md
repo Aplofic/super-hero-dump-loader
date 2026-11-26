@@ -77,7 +77,7 @@ C:\Users\Melinsky\AppData\Local\SuperHeroRoyale\jogo\.shr-versao-rVkyRE\esp_stat
 - [PROGRAMACAO.md](docs/PROGRAMACAO.md) — **guia completo**: pré-requisitos, comandos de compilação de todos os binários, referência da CLI, arquitetura do código, como estender e portar para outra versão, solução de problemas.
 - [DUMP.md](docs/DUMP.md) — como o dump foi feito, âncora do Mono, classes, offsets e cadeias de ponteiro.
 - [ESP.md](docs/ESP.md) — arquitetura do overlay, desenho GDI, esqueleto e escritas pontuais.
-- [ANTICHEAT.md](docs/ANTICHEAT.md) — como um anti-cheat detectaria este tipo de projeto, ideias de melhoria defensiva e notas educacionais sobre ofuscação.
+- [ANTICHEAT.md](docs/ANTICHEAT.md) — **guia completo de proteção**: modelo de ameaça, 8 camadas defensivas (autoridade, integridade de código/memória/Mono, overlay, input, heurística, resposta, processo), roadmap priorizado P0/P1/P2 e notas educacionais sobre ofuscação.
 - [RESULTADOS.md](src/RESULTADOS.md) — relatório cronológico com todas as descobertas e testes ao vivo.
 
 ## Limitações conhecidas
