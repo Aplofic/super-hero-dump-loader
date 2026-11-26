@@ -4,6 +4,8 @@ Laboratório de engenharia reversa e estudo de memória de um jogo Unity **Mono*
 
 > **Aviso de escopo:** projeto **educacional**, feito para testes **locais** no build `alfa-0.1-19` (build 19), que roda **offline contra bots**. Não envolve servidor, outros jogadores, contas, pagamentos nem dados pessoais. Não use em versões online nem em máquinas de terceiros. Respeite os termos de uso do jogo.
 
+![Super Hero Royale](images/super-hero.png)
+
 ## O que este projeto NÃO faz
 
 - Não usa hooks, patches de código, `WriteProcessMemory` em código, nem suspensão de threads.
