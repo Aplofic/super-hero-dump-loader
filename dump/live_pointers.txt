@@ -1,0 +1,33 @@
+=== SHR LIVE RESOLVER ===
+mono_domain=0x000001C496B02D20 images=137
+
+STATIC .JogadorBR::<Local>k__BackingField image=Assembly-CSharp field_offset=+0x00000000 flags=0x00000011 vtable=0x000001C61DDC97F0 static_base=0x000001C5F7715C40 field_addr=0x000001C5F7715C40 raw_qword=0x000001C5C94BC2C0 resolved_ptr=0x000001C5C94BC2C0
+STATIC .MundoVivo::_instancia image=Assembly-CSharp field_offset=+0x00000068 flags=0x00000011 vtable=0x000001C61D9DF6A8 static_base=0x000001C5A71CD840 field_addr=0x000001C5A71CD8A8 raw_qword=0x000001C5F791CF00 resolved_ptr=0x000001C5F791CF00
+STATIC .MundoVivo2::_inst image=Assembly-CSharp field_offset=+0x00000048 flags=0x00000011 vtable=0x000001C61D9E06C0 static_base=0x000001C5F7776D90 field_addr=0x000001C5F7776DD8 raw_qword=0x000001C5F786BEA0 resolved_ptr=0x000001C5F786BEA0
+STATIC Royale.Multiplayer.SalaRede::<Instancia>k__BackingField image=Royale.Multiplayer field_offset=+0x00000000 flags=0x00000011 vtable=0x000001C5F689A6B8 static_base=0x000001C5CA56B180 field_addr=0x000001C5CA56B180 raw_qword=0x0000000000000000 resolved_ptr=0x0000000000000000
+STATIC Royale.Multiplayer.VidaRede::<Local>k__BackingField image=Royale.Multiplayer field_offset=+0x00000000 flags=0x00000011 vtable=0x000001C7E4EE17E0 static_base=0x000001C7B52B0E70 field_addr=0x000001C7B52B0E70 raw_qword=0x0000000000000000 resolved_ptr=0x0000000000000000
+STATIC .Combatant::All image=Assembly-CSharp field_offset=+0x00000000 flags=0x00000036 vtable=0x000001C5C9F1DA38 static_base=0x000001C496B06BC0 field_addr=0x000001C496B06BC0 raw_qword=0x000001C5F4DD5510 resolved_ptr=0x000001C5F4DD5510
+
+=== CADEIA LOCAL ===
+JogadorBR::<Local> = 0x000001C5C94BC2C0 ok
+local_object_class=JogadorBR
+PTR JogadorBR::combatant offset=+0x00000020 addr=0x000001C5C94BC2E0 raw=0x000001C633F25000 value=0x000001C633F25000 ok
+PTR JogadorBR::controller offset=+0x00000040 addr=0x000001C5C94BC300 raw=0x000001C633F207E0 value=0x000001C633F207E0 ok
+PTR JogadorBR::hero offset=+0x00000048 addr=0x000001C5C94BC308 raw=0x000001C61EA4A000 value=0x000001C61EA4A000 ok
+PTR JogadorBR::gun offset=+0x00000038 addr=0x000001C5C94BC2F8 raw=0x000001C633F20540 value=0x000001C633F20540 ok
+PTR JogadorBR::inventory offset=+0x00000028 addr=0x000001C5C94BC2E8 raw=0x000001C61E853070 value=0x000001C61E853070 ok
+INT JogadorBR::<IsDead>k__BackingField offset=+0x0000011C addr=0x000001C5C94BC3DC raw=0 value=0
+
+Combatant object = 0x000001C633F25000
+INT Combatant::isPlayer offset=+0x000000C8 addr=0x000001C633F250C8 raw=1 value=1
+FLT Combatant::maxHp offset=+0x000000CC addr=0x000001C633F250CC raw=200.000 value=200.000 ok
+INT Combatant::vestLevel offset=+0x000000D0 addr=0x000001C633F250D0 raw=0 value=0
+FLT Combatant::vestDurability offset=+0x000000D4 addr=0x000001C633F250D4 raw=0.000 value=0.000 ok
+INT Combatant::helmetLevel offset=+0x000000D8 addr=0x000001C633F250D8 raw=0 value=0
+FLT Combatant::helmetDurability offset=+0x000000DC addr=0x000001C633F250DC raw=0.000 value=0.000 ok
+FLT Combatant::<Hp>k__BackingField offset=+0x000000E0 addr=0x000001C633F250E0 raw=200.000 value=200.000 ok
+INT Combatant::<Kills>k__BackingField offset=+0x000000E4 addr=0x000001C633F250E4 raw=0 value=0
+INT Combatant::<LastAttacker>k__BackingField offset=+0x00000038 addr=0x000001C633F25038 raw=0 value=0
+FLT Combatant::<LastHpDamage>k__BackingField offset=+0x000000F0 addr=0x000001C633F250F0 raw=0.000 value=0.000 ok
+
+DONE

@@ -1,0 +1,787 @@
+=== SHR PROBE ===
+domain=0x000001C496B02D20 images=137
+
+=== CLASS Camera === image=UnityEngine.CoreModule class=0x000001C4D7EE1EF0
+  FIELD kMinAperture off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD kMaxAperture off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD kMinBladeCount off=+0x00000000 flags=0x00008056 type=System.Int32
+  FIELD kMaxBladeCount off=+0x00000000 flags=0x00008056 type=System.Int32
+  FIELD m_NonSerializedVersion off=+0x00000018 flags=0x00000003 type=System.UInt32
+  FIELD onPreCull off=+0x00000000 flags=0x00000016 type=UnityEngine.Camera.CameraCallback
+  FIELD onPreRender off=+0x00000008 flags=0x00000016 type=UnityEngine.Camera.CameraCallback
+  FIELD onPostRender off=+0x00000010 flags=0x00000016 type=UnityEngine.Camera.CameraCallback
+  PROP nearClipPlane
+  PROP farClipPlane
+  PROP fieldOfView
+  PROP renderingPath
+  PROP actualRenderingPath
+  PROP allowHDR
+  PROP allowMSAA
+  PROP allowDynamicResolution
+  PROP forceIntoRenderTexture
+  PROP orthographicSize
+  PROP orthographic
+  PROP opaqueSortMode
+  PROP transparencySortMode
+  PROP transparencySortAxis
+  PROP depth
+  PROP aspect
+  PROP velocity
+  PROP cullingMask
+  PROP eventMask
+  PROP layerCullSpherical
+  PROP layerCullSphericalInternal
+  PROP cameraType
+  PROP skyboxMaterial
+  PROP overrideSceneCullingMask
+  PROP sceneCullingMask
+  PROP useInteractiveLightBakingData
+  PROP layerCullDistances
+  PROP PreviewCullingLayer
+  PROP useOcclusionCulling
+  PROP cullingMatrix
+  PROP backgroundColor
+  PROP clearFlags
+  PROP depthTextureMode
+  PROP clearStencilAfterLightingPass
+  PROP projectionMatrixMode
+  PROP usePhysicalProperties
+  PROP iso
+  PROP shutterSpeed
+  PROP aperture
+  PROP focusDistance
+  PROP focalLength
+  PROP bladeCount
+  PROP curvature
+  PROP barrelClipping
+  PROP anamorphism
+  PROP sensorSize
+  PROP lensShift
+  PROP gateFit
+  PROP rect
+  PROP pixelRect
+  PROP pixelWidth
+  PROP pixelHeight
+  PROP scaledPixelWidth
+  PROP scaledPixelHeight
+  PROP targetTexture
+  PROP activeTexture
+  PROP targetDisplay
+  PROP cameraToWorldMatrix
+  PROP worldToCameraMatrix
+  PROP projectionMatrix
+  PROP nonJitteredProjectionMatrix
+  PROP useJitteredProjectionMatrixForTransparentRendering
+  PROP previousViewProjectionMatrix
+  PROP main
+  PROP current
+  PROP currentInternal
+  PROP scene
+  PROP stereoEnabled
+  PROP stereoSeparation
+  PROP stereoConvergence
+  PROP areVRStereoViewMatricesWithinSingleCullTolerance
+  PROP stereoTargetEye
+  PROP stereoTargetEyeInternal
+  PROP stereoActiveEye
+  PROP allCamerasCount
+  PROP allCameras
+  PROP sceneViewFilterMode
+  PROP renderCloudsInSceneView
+  PROP isProcessingRenderRequest
+  PROP commandBufferCount
+  METHODS: get_cullingMatrix set_cullingMatrix ResetCullingMatrix get_projectionMatrixMode
+=== CLASS Transform === image=UnityEngine.CoreModule class=0x000001C55FED5FE0
+  PROP position
+  PROP localPosition
+  PROP eulerAngles
+  PROP localEulerAngles
+  PROP right
+  PROP up
+  PROP forward
+  PROP rotation
+  PROP localRotation
+  PROP rotationOrder
+  PROP localScale
+  PROP parent
+  PROP parentInternal
+  PROP worldToLocalMatrix
+  PROP localToWorldMatrix
+  PROP root
+  PROP childCount
+  PROP lossyScale
+  PROP hasChanged
+  PROP hierarchyCapacity
+  PROP hierarchyCount
+  PROP constrainProportionsScale
+  METHODS: get_localPosition set_localPosition get_worldToLocalMatrix get_localToWorldMatrix SetPositionAndRotation SetLocalPositionAndRotation GetPositionAndRotation GetLocalPositionAndRotation TransformDirection TransformDirection TransformDirectionsInternal TransformDirections TransformDirections InverseTransformDirection InverseTransformDirection InverseTransformDirectionsInternal InverseTransformDirections InverseTransformDirections TransformVector TransformVector TransformVectorsInternal TransformVectors TransformVectors InverseTransformVector InverseTransformVector InverseTransformVectorsInternal InverseTransformVectors InverseTransformVectors TransformPoint TransformPoint TransformPointsInternal TransformPoints TransformPoints InverseTransformPoint InverseTransformPoint InverseTransformPointsInternal InverseTransformPoints InverseTransformPoints FindRelativeTransformWithPath SendTransformChangedScale IsNonUniformScaleTransform
+=== CLASS Matrix4x4 === image=UnityEngine.CoreModule class=0x000001C4D7EF2980
+  FIELD m00 off=+0x00000010 flags=0x00000006 type=System.Single
+  FIELD m10 off=+0x00000014 flags=0x00000006 type=System.Single
+  FIELD m20 off=+0x00000018 flags=0x00000006 type=System.Single
+  FIELD m30 off=+0x0000001C flags=0x00000006 type=System.Single
+  FIELD m01 off=+0x00000020 flags=0x00000006 type=System.Single
+  FIELD m11 off=+0x00000024 flags=0x00000006 type=System.Single
+  FIELD m21 off=+0x00000028 flags=0x00000006 type=System.Single
+  FIELD m31 off=+0x0000002C flags=0x00000006 type=System.Single
+  FIELD m02 off=+0x00000030 flags=0x00000006 type=System.Single
+  FIELD m12 off=+0x00000034 flags=0x00000006 type=System.Single
+  FIELD m22 off=+0x00000038 flags=0x00000006 type=System.Single
+  FIELD m32 off=+0x0000003C flags=0x00000006 type=System.Single
+  FIELD m03 off=+0x00000040 flags=0x00000006 type=System.Single
+  FIELD m13 off=+0x00000044 flags=0x00000006 type=System.Single
+  FIELD m23 off=+0x00000048 flags=0x00000006 type=System.Single
+  FIELD m33 off=+0x0000004C flags=0x00000006 type=System.Single
+  FIELD zeroMatrix off=+0x00000000 flags=0x00000031 type=UnityEngine.Matrix4x4
+  FIELD identityMatrix off=+0x00000040 flags=0x00000031 type=UnityEngine.Matrix4x4
+  PROP rotation
+  PROP lossyScale
+  PROP isIdentity
+  PROP determinant
+  PROP decomposeProjection
+  PROP inverse
+  PROP transpose
+  PROP Item
+  PROP Item
+  PROP zero
+  PROP identity
+  METHODS: GetPosition TransformPlane TransformPlane
+=== CLASS Vector3 === image=UnityEngine.CoreModule class=0x000001C55FEDFCC0
+  FIELD kEpsilon off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD kEpsilonNormalSqrt off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD x off=+0x00000010 flags=0x00000006 type=System.Single
+  FIELD y off=+0x00000014 flags=0x00000006 type=System.Single
+  FIELD z off=+0x00000018 flags=0x00000006 type=System.Single
+  FIELD zeroVector off=+0x00000000 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD oneVector off=+0x0000000C flags=0x00000031 type=UnityEngine.Vector3
+  FIELD upVector off=+0x00000018 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD downVector off=+0x00000024 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD leftVector off=+0x00000030 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD rightVector off=+0x0000003C flags=0x00000031 type=UnityEngine.Vector3
+  FIELD forwardVector off=+0x00000048 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD backVector off=+0x00000054 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD positiveInfinityVector off=+0x00000060 flags=0x00000031 type=UnityEngine.Vector3
+  FIELD negativeInfinityVector off=+0x0000006C flags=0x00000031 type=UnityEngine.Vector3
+  PROP Item
+  PROP normalized
+  PROP magnitude
+  PROP sqrMagnitude
+  PROP zero
+  PROP one
+  PROP forward
+  PROP back
+  PROP up
+  PROP down
+  PROP left
+  PROP right
+  PROP positiveInfinity
+  PROP negativeInfinity
+  PROP fwd
+  METHODS:
+=== CLASS Animator === image=UnityEngine.AnimationModule class=0x000001C5600D8FC0
+  PROP isOptimizable
+  PROP isHuman
+  PROP hasRootMotion
+  PROP isRootPositionOrRotationControlledByCurves
+  PROP humanScale
+  PROP isInitialized
+  PROP deltaPosition
+  PROP deltaRotation
+  PROP velocity
+  PROP angularVelocity
+  PROP rootPosition
+  PROP rootRotation
+  PROP applyRootMotion
+  PROP linearVelocityBlending
+  PROP animatePhysics
+  PROP updateMode
+  PROP hasTransformHierarchy
+  PROP allowConstantClipSamplingOptimization
+  PROP gravityWeight
+  PROP bodyPosition
+  PROP bodyPositionInternal
+  PROP bodyRotation
+  PROP bodyRotationInternal
+  PROP stabilizeFeet
+  PROP layerCount
+  PROP parameters
+  PROP parameterCount
+  PROP feetPivotActive
+  PROP pivotWeight
+  PROP pivotPosition
+  PROP isMatchingTarget
+  PROP speed
+  PROP targetPosition
+  PROP targetRotation
+  PROP avatarRoot
+  PROP cullingMode
+  PROP playbackTime
+  PROP recorderStartTime
+  PROP recorderStopTime
+  PROP recorderMode
+  PROP runtimeAnimatorController
+  PROP hasBoundPlayables
+  PROP avatar
+  PROP playableGraph
+  PROP layersAffectMassCenter
+  PROP leftFeetBottomHeight
+  PROP rightFeetBottomHeight
+  PROP supportsOnAnimatorMove
+  PROP logWarnings
+  PROP fireEvents
+  PROP keepAnimatorControllerStateOnDisable
+  PROP keepAnimatorStateOnDisable
+  PROP writeDefaultValuesOnDisable
+  METHODS: get_isRootPositionOrRotationControlledByCurves get_deltaPosition get_rootPosition set_rootPosition get_hasTransformHierarchy get_bodyPosition set_bodyPosition get_bodyPositionInternal set_bodyPositionInternal GetIKPosition GetGoalPosition SetIKPosition SetGoalPosition GetIKPositionWeight GetGoalWeightPosition SetIKPositionWeight SetGoalWeightPosition GetIKHintPosition GetHintPosition SetIKHintPosition SetHintPosition GetIKHintPositionWeight GetHintWeightPosition SetIKHintPositionWeight SetHintWeightPosition SetLookAtPosition SetLookAtPositionInternal SetBoneLocalRotation SetBoneLocalRotationInternal
+=== CLASS GameObject === image=UnityEngine.CoreModule class=0x000001C4D7EDF3E8
+  PROP transform
+  PROP transformHandle
+  PROP layer
+  PROP active
+  PROP activeSelf
+  PROP activeInHierarchy
+  PROP isStatic
+  PROP isStaticBatchable
+  PROP tag
+  PROP scene
+  PROP sceneCullingMask
+  PROP gameObject
+  METHODS:
+=== CLASS Component === image=UnityEngine.CoreModule class=0x000001C4D7EE1000
+  PROP transform
+  PROP transformHandle
+  PROP gameObject
+  PROP tag
+  METHODS:
+=== CLASS MonoBehaviour === image=UnityEngine.CoreModule class=0x000001C4D7EF3988
+  FIELD m_CancellationTokenSource off=+0x00000018 flags=0x00000001 type=System.Threading.CancellationTokenSource
+  PROP destroyCancellationToken
+  PROP useGUILayout
+  PROP didStart
+  PROP didAwake
+  METHODS:
+=== CLASS JogadorBR === image=Assembly-CSharp class=0x000001C5855BCC68
+  FIELD <Local>k__BackingField off=+0x00000000 flags=0x00000011 type=JogadorBR
+  FIELD combatant off=+0x00000020 flags=0x00000006 type=Combatant
+  FIELD inventory off=+0x00000028 flags=0x00000006 type=WeaponInventory
+  FIELD gloo off=+0x00000030 flags=0x00000006 type=GlooThrower
+  FIELD gun off=+0x00000038 flags=0x00000006 type=SimpleGun
+  FIELD controller off=+0x00000040 flags=0x00000006 type=PlayerController
+  FIELD hero off=+0x00000048 flags=0x00000006 type=HeroAnimator
+  FIELD camRig off=+0x00000050 flags=0x00000006 type=ThirdPersonCamera
+  FIELD items off=+0x00000058 flags=0x00000006 type=ItemUser
+  FIELD interactRadius off=+0x00000108 flags=0x00000006 type=System.Single
+  FIELD autoPickupRadius off=+0x0000010C flags=0x00000006 type=System.Single
+  FIELD ListRows off=+0x00000000 flags=0x00008056 type=System.Int32
+  FIELD ScriptKit off=+0x00000008 flags=0x00000016 type=System.Boolean
+  FIELD ScriptGrenade off=+0x00000009 flags=0x00000016 type=System.Boolean
+  FIELD ScriptTakeAll off=+0x0000000A flags=0x00000016 type=System.Boolean
+  FIELD ScriptListNext off=+0x0000000B flags=0x00000016 type=System.Boolean
+  FIELD ScriptListPrev off=+0x0000000C flags=0x00000016 type=System.Boolean
+  FIELD DuracaoAvisoEquipado off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD Equipou off=+0x00000010 flags=0x00000011 type=System.Action<JogadorBR.AvisoColeta>
+  FIELD Coletou off=+0x00000018 flags=0x00000011 type=System.Action<ItemStack>
+  FIELD avisos off=+0x00000020 flags=0x00000031 type=System.Collections.Generic.List<JogadorBR.AvisoColeta>
+  FIELD DuracaoAvisoNaoCabe off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD <UltimoAvisoNaoCabe>k__BackingField off=+0x00000028 flags=0x00000011 type=System.String
+  FIELD <QaAvisosNaoCabe>k__BackingField off=+0x00000030 flags=0x00000011 type=System.Int32
+  FIELD <QaSonsErro>k__BackingField off=+0x00000034 flags=0x00000011 type=System.Int32
+  FIELD intervaloNaoCabe off=+0x00000110 flags=0x00000001 type=RegrasMochila.Intervalo
+  FIELD avisoNaoCabe off=+0x00000060 flags=0x00000001 type=System.String
+  FIELD avisoCabeca off=+0x00000068 flags=0x00000001 type=System.String
+  FIELD avisoResto off=+0x00000070 flags=0x00000001 type=System.String
+  FIELD avisoNaoCabeInicio off=+0x00000118 flags=0x00000001 type=System.Single
+  FIELD erroClip off=+0x00000078 flags=0x00000001 type=UnityEngine.AudioClip
+  FIELD estiloAvisoAntigo off=+0x00000080 flags=0x00000001 type=UnityEngine.GUIStyle
+  FIELD <NearestPickup>k__BackingField off=+0x00000088 flags=0x00000001 type=WeaponPickup
+  FIELD <PickupPromptText>k__BackingField off=+0x00000090 flags=0x00000001 type=System.String
+  FIELD <IsDead>k__BackingField off=+0x0000011C flags=0x00000001 type=System.Boolean
+  FIELD <NearBox>k__BackingField off=+0x00000098 flags=0x00000001 type=CaixaLoot
+  FIELD <OpenBox>k__BackingField off=+0x000000A0 flags=0x00000001 type=CaixaLoot
+  FIELD <Selected>k__BackingField off=+0x00000120 flags=0x00000001 type=System.Int32
+  FIELD <ListVersion>k__BackingField off=+0x00000124 flags=0x00000001 type=System.Int32
+  FIELD rows off=+0x000000A8 flags=0x00000021 type=System.Collections.Generic.List<JogadorBR.Row>
+  FIELD nearby off=+0x000000B0 flags=0x00000021 type=System.Collections.Generic.List<WeaponPickup>
+  FIELD nearbyScore off=+0x000000B8 flags=0x00000021 type=System.Collections.Generic.List<System.Single>
+  FIELD selectedPickup off=+0x000000C0 flags=0x00000001 type=WeaponPickup
+  FIELD selectedBoxIndex off=+0x00000128 flags=0x00000001 type=System.Int32
+  FIELD selectedBox off=+0x000000C8 flags=0x00000001 type=CaixaLoot
+  FIELD nextRefresh off=+0x0000012C flags=0x00000001 type=System.Single
+  FIELD listDirty off=+0x00000130 flags=0x00000001 type=System.Boolean
+  FIELD audioSource off=+0x000000D0 flags=0x00000001 type=UnityEngine.AudioSource
+  FIELD pickupClip off=+0x000000D8 flags=0x00000001 type=UnityEngine.AudioClip
+  FIELD glooClip off=+0x000000E0 flags=0x00000001 type=UnityEngine.AudioClip
+  FIELD openClip off=+0x000000E8 flags=0x00000001 type=UnityEngine.AudioClip
+  FIELD ikRelay off=+0x000000F0 flags=0x00000001 type=AnimatorIKRelay
+  FIELD nextScroll off=+0x00000134 flags=0x00000001 type=System.Single
+  FIELD testMode off=+0x00000138 flags=0x00000001 type=System.Boolean
+  FIELD quadroReligado off=+0x0000013C flags=0x00000001 type=System.Int32
+  FIELD cc off=+0x000000F8 flags=0x00000001 type=UnityEngine.CharacterController
+  FIELD deadFallSpeed off=+0x00000140 flags=0x00000001 type=System.Single
+  FIELD nomesCard off=+0x00000038 flags=0x00000031 type=System.Collections.Generic.Dictionary<System.Int32,System.String>
+  FIELD AlturaAvisoNaoCabe off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD candAuto off=+0x00000100 flags=0x00000021 type=System.Collections.Generic.List<WeaponPickup>
+  FIELD candSeq off=+0x00000144 flags=0x00000001 type=System.Int32
+  FIELD candT off=+0x00000148 flags=0x00000001 type=System.Single
+  FIELD candRaio off=+0x0000014C flags=0x00000001 type=System.Single
+  FIELD candCentro off=+0x00000150 flags=0x00000001 type=UnityEngine.Vector3
+  PROP Local
+  PROP AvisosEquipado
+  PROP UltimoAvisoNaoCabe
+  PROP QaAvisosNaoCabe
+  PROP QaSonsErro
+  PROP AvisoNaoCabeNaTela
+  PROP NearestPickup
+  PROP PickupPromptText
+  PROP IsDead
+  PROP NearBox
+  PROP OpenBox
+  PROP RowCount
+  PROP Selected
+  PROP ListVersion
+  PROP ListTitle
+  PROP ColetaEmFoco
+  PROP FPegaTudo
+  PROP TestMode
+  PROP Me
+  METHODS:
+=== CLASS Combatant === image=Assembly-CSharp class=0x000001C5853CADE8
+  FIELD All off=+0x00000000 flags=0x00000036 type=System.Collections.Generic.List<Combatant>
+  FIELD AnyDied off=+0x00000008 flags=0x00000011 type=System.Action<Combatant,DamageInfo>
+  FIELD anyDamageResolved off=+0x00000010 flags=0x00000011 type=System.Action<ResultadoDano>
+  FIELD ouvintesResolvido off=+0x00000018 flags=0x00000011 type=System.Delegate[]
+  FIELD displayName off=+0x00000020 flags=0x00000006 type=System.String
+  FIELD isPlayer off=+0x000000C8 flags=0x00000006 type=System.Boolean
+  FIELD maxHp off=+0x000000CC flags=0x00000006 type=System.Single
+  FIELD aimPoint off=+0x00000028 flags=0x00000006 type=UnityEngine.Transform
+  FIELD headPoint off=+0x00000030 flags=0x00000006 type=UnityEngine.Transform
+  FIELD vestLevel off=+0x000000D0 flags=0x00000006 type=System.Int32
+  FIELD vestDurability off=+0x000000D4 flags=0x00000006 type=System.Single
+  FIELD helmetLevel off=+0x000000D8 flags=0x00000006 type=System.Int32
+  FIELD helmetDurability off=+0x000000DC flags=0x00000006 type=System.Single
+  FIELD <Hp>k__BackingField off=+0x000000E0 flags=0x00000001 type=System.Single
+  FIELD <Kills>k__BackingField off=+0x000000E4 flags=0x00000001 type=System.Int32
+  FIELD <DeathTime>k__BackingField off=+0x000000E8 flags=0x00000001 type=System.Single
+  FIELD <LastAttacker>k__BackingField off=+0x00000038 flags=0x00000001 type=Combatant
+  FIELD <LastDamageTime>k__BackingField off=+0x000000EC flags=0x00000001 type=System.Single
+  FIELD <LastHpDamage>k__BackingField off=+0x000000F0 flags=0x00000001 type=System.Single
+  FIELD <LastActualHpLost>k__BackingField off=+0x000000F4 flags=0x00000001 type=System.Single
+  FIELD <LastResolvedDamage>k__BackingField off=+0x00000040 flags=0x00000001 type=ResultadoDano
+  FIELD <LastArmorAbsorbed>k__BackingField off=+0x000000F8 flags=0x00000001 type=System.Single
+  FIELD <LastHitArmor>k__BackingField off=+0x000000FC flags=0x00000001 type=System.Boolean
+  FIELD <LastArmorWasHelmet>k__BackingField off=+0x000000FD flags=0x00000001 type=System.Boolean
+  FIELD <LastArmorHitTime>k__BackingField off=+0x00000100 flags=0x00000001 type=System.Single
+  FIELD Damaged off=+0x000000B8 flags=0x00000001 type=System.Action<Combatant,DamageInfo>
+  FIELD Died off=+0x000000C0 flags=0x00000001 type=System.Action<Combatant,DamageInfo>
+  FIELD ExtraBadaladas off=+0x00000020 flags=0x00000016 type=Combatant.FatorDanoExtra
+  FIELD PortaMp off=+0x00000028 flags=0x00000016 type=Combatant.PortaVidaMp
+  FIELD resolvendo off=+0x00000030 flags=0x00000011 type=System.Int32
+  FIELD ultimoAtaqueRecebido off=+0x00000108 flags=0x00000001 type=System.Int64
+  FIELD EscudoPassaMinimo off=+0x00000000 flags=0x00008056 type=System.Single
+  FIELD escudo off=+0x00000110 flags=0x00000001 type=System.Single
+  FIELD escudoDesde off=+0x00000114 flags=0x00000001 type=System.Single
+  FIELD escudoAte off=+0x00000118 flags=0x00000001 type=System.Single
+  FIELD escudoDecaiPct off=+0x0000011C flags=0x00000001 type=System.Single
+  FIELD tetoAtaqueId off=+0x00000120 flags=0x00000001 type=System.Int64
+  FIELD tetoSoma off=+0x00000128 flags=0x00000001 type=System.Single
+  FIELD tetoDisparo off=+0x00000130 flags=0x00000001 type=System.Double
+  FIELD tetoColete off=+0x00000138 flags=0x00000001 type=System.Boolean
+  FIELD tetoCapacete off=+0x00000139 flags=0x00000001 type=System.Boolean
+  FIELD <LastTetoSegurou>k__BackingField off=+0x0000013C flags=0x00000001 type=System.Single
+  PROP Hp
+  PROP IsAlive
+  PROP Kills
+  PROP DeathTime
+  PROP LastAttacker
+  PROP LastDamageTime
+  PROP LastHpDamage
+  PROP LastActualHpLost
+  PROP LastResolvedDamage
+  PROP LastArmorAbsorbed
+  PROP LastHitArmor
+  PROP LastArmorWasHelmet
+  PROP LastArmorHitTime
+  PROP VestMax
+  PROP HelmetMax
+  PROP VestFraction
+  PROP HelmetFraction
+  PROP AimPosition
+  PROP HeadPosition
+  PROP EscudoAtual
+  PROP LastTetoSegurou
+  PROP NumeroNaTela
+  METHODS: get_AimPosition get_HeadPosition
+
+Camera.main=0x000001C6796F28C0
+=== OBJECT Camera.main 0x000001C6796F28C0 ===
+ class=Camera
+  kMinAperture +0x00000000 qword=0x000001C5C9981250
+  kMaxAperture +0x00000000 qword=0x000001C5C9981250
+  kMinBladeCount +0x00000000 qword=0x000001C5C9981250
+  kMaxBladeCount +0x00000000 qword=0x000001C5C9981250
+  m_NonSerializedVersion +0x00000018 qword=0x0000000000000000
+  onPreCull +0x00000000 qword=0x000001C5C9981250
+  onPreRender +0x00000008 qword=0x0000000000000000
+  onPostRender +0x00000010 qword=0x000001C5D6359450
+=== BOXED cameraToWorldMatrix 0x000001C679705F00 ===
+  [0] 0.365276
+  [1] 0.000000
+  [2] 0.930899
+  [3] 0.000000
+  [4] -0.171879
+  [5] 0.982807
+  [6] 0.067444
+  [7] 0.000000
+  [8] 0.914894
+  [9] 0.184638
+  [10] -0.358996
+  [11] 0.000000
+  [12] 592.628235
+  [13] 16.587690
+  [14] 119.598381
+  [15] 1.000000
+=== BOXED worldToCameraMatrix 0x000001C679705730 ===
+  [0] 0.365276
+  [1] -0.171879
+  [2] 0.914894
+  [3] 0.000000
+  [4] -0.000000
+  [5] 0.982807
+  [6] 0.184638
+  [7] 0.000000
+  [8] 0.930899
+  [9] 0.067444
+  [10] -0.358995
+  [11] 0.000000
+  [12] -327.806793
+  [13] 77.491699
+  [14] -502.319458
+  [15] 1.000000
+=== BOXED projectionMatrix 0x000001C679705410 ===
+  [0] 0.978099
+  [1] 0.000000
+  [2] 0.000000
+  [3] 0.000000
+  [4] 0.000000
+  [5] 1.732051
+  [6] 0.000000
+  [7] 0.000000
+  [8] 0.000000
+  [9] 0.000000
+  [10] -1.000075
+  [11] -1.000000
+  [12] 0.000000
+  [13] 0.000000
+  [14] -0.120005
+  [15] 0.000000
+
+JogadorBR::<Local>=0x000001C5C94BC2C0
+=== OBJECT JogadorBR.local 0x000001C5C94BC2C0 ===
+ class=JogadorBR
+  <Local>k__BackingField +0x00000000 qword=0x000001C61DDC97F0
+  combatant +0x00000020 qword=0x000001C633F25000
+  inventory +0x00000028 qword=0x000001C61E853070
+  gloo +0x00000030 qword=0x000001C61E9583C0
+  gun +0x00000038 qword=0x000001C633F20540
+  controller +0x00000040 qword=0x000001C633F207E0
+  hero +0x00000048 qword=0x000001C61EA4A000
+  camRig +0x00000050 qword=0x000001C61EA5A540
+  items +0x00000058 qword=0x000001C61E6A1D00
+  interactRadius +0x00000108 qword=0x3F8CCCCD40200000
+  autoPickupRadius +0x0000010C qword=0x000000003F8CCCCD
+  ListRows +0x00000000 qword=0x000001C61DDC97F0
+  ScriptKit +0x00000008 qword=0x0000000000000000
+  ScriptGrenade +0x00000009 qword=0x1000000000000000
+  ScriptTakeAll +0x0000000A qword=0xE210000000000000
+  ScriptListNext +0x0000000B qword=0xE8E2100000000000
+  ScriptListPrev +0x0000000C qword=0xD5E8E21000000000
+  DuracaoAvisoEquipado +0x00000000 qword=0x000001C61DDC97F0
+  Equipou +0x00000010 qword=0x000001C5D5E8E210
+  Coletou +0x00000018 qword=0x0000000000000000
+  avisos +0x00000020 qword=0x000001C633F25000
+  DuracaoAvisoNaoCabe +0x00000000 qword=0x000001C61DDC97F0
+  <UltimoAvisoNaoCabe>k__BackingField +0x00000028 qword=0x000001C61E853070
+  <QaAvisosNaoCabe>k__BackingField +0x00000030 qword=0x000001C61E9583C0
+  <QaSonsErro>k__BackingField +0x00000034 qword=0x33F20540000001C6
+  intervaloNaoCabe +0x00000110 qword=0x0000000000000000
+  avisoNaoCabe +0x00000060 qword=0x000001C496B0FFE0
+  avisoCabeca +0x00000068 qword=0x000001C496B0FFE0
+  avisoResto +0x00000070 qword=0x000001C496B0FFE0
+  avisoNaoCabeInicio +0x00000118 qword=0x00000000C1200000
+  erroClip +0x00000078 qword=0x0000000000000000
+  estiloAvisoAntigo +0x00000080 qword=0x0000000000000000
+  <NearestPickup>k__BackingField +0x00000088 qword=0x0000000000000000
+  <PickupPromptText>k__BackingField +0x00000090 qword=0x000001C496B0FFE0
+  <IsDead>k__BackingField +0x0000011C qword=0x0000000000000000
+  <NearBox>k__BackingField +0x00000098 qword=0x0000000000000000
+  <OpenBox>k__BackingField +0x000000A0 qword=0x0000000000000000
+  <Selected>k__BackingField +0x00000120 qword=0x000003CB00000000
+  <ListVersion>k__BackingField +0x00000124 qword=0xFFFFFFFF000003CB
+  rows +0x000000A8 qword=0x000001C679EC1810
+  nearby +0x000000B0 qword=0x000001C679EC17B0
+  nearbyScore +0x000000B8 qword=0x000001C679EC1780
+  selectedPickup +0x000000C0 qword=0x0000000000000000
+  selectedBoxIndex +0x00000128 qword=0x430DE4E3FFFFFFFF
+  selectedBox +0x000000C8 qword=0x0000000000000000
+  nextRefresh +0x0000012C qword=0x00000000430DE4E3
+  listDirty +0x00000130 qword=0x0000000000000000
+  audioSource +0x000000D0 qword=0x000001C6770646C0
+  pickupClip +0x000000D8 qword=0x000001C6796F3C90
+  glooClip +0x000000E0 qword=0x0000000000000000
+  openClip +0x000000E8 qword=0x0000000000000000
+  ikRelay +0x000000F0 qword=0x0000000000000000
+  nextScroll +0x00000134 qword=0x0000000000000000
+  testMode +0x00000138 qword=0x0000175A00000000
+  quadroReligado +0x0000013C qword=0x000000000000175A
+  cc +0x000000F8 qword=0x0000000000000000
+  deadFallSpeed +0x00000140 qword=0x000007F900000000
+  nomesCard +0x00000038 qword=0x000001C633F20540
+  AlturaAvisoNaoCabe +0x00000000 qword=0x000001C61DDC97F0
+  candAuto +0x00000100 qword=0x000001C679EC1750
+  candSeq +0x00000144 qword=0x430DC311000007F9
+  candT +0x00000148 qword=0x3F8CCCCD430DC311
+  candRaio +0x0000014C qword=0x44137C053F8CCCCD
+  candCentro +0x00000150 qword=0x416C231A44137C05
+
+hero=0x000001C61EA4A000
+=== OBJECT hero 0x000001C61EA4A000 ===
+ class=HeroAnimator
+  arPe +0x00000020 qword=0x000001C633F21D20
+  arJanela +0x00000028 qword=0x000001C679EC1930
+  arAntA +0x00000030 qword=0x000001C679676BC0
+  arAntD +0x00000038 qword=0x000001C679676B80
+  arMinA +0x00000040 qword=0x000001C633F1F030
+  arMinD +0x00000048 qword=0x000001C633F1F000
+  arYA +0x00000050 qword=0x000001C630D13FC0
+  arYD +0x00000058 qword=0x000001C630D13F90
+  arDedos +0x00000060 qword=0x000001C633F21CF0
+  arAnimador +0x00000068 qword=0x0000000000000000
+  arAntOk +0x000002F0 qword=0x0000000000000000
+  arPeso +0x000002F4 qword=0xFFFFFFF600000000
+  arUltimoQuadro +0x000002F8 qword=0x00000000FFFFFFF6
+  <AR_PesoPe>k__BackingField +0x000002FC qword=0x0000000000000000
+  <AR_PesPresos>k__BackingField +0x00000300 qword=0x0000000000000000
+  <AR_DesvioCm>k__BackingField +0x00000304 qword=0x0000000000000000
+  <AR_QuadrosPe>k__BackingField +0x00000308 qword=0x0000000000000000
+  <AndarHumanoPeso>k__BackingField +0x0000030C qword=0x0000000000000000
+  <AndarHumanoTaxa>k__BackingField +0x00000310 qword=0x0000000000000000
+  <AndarHumanoPeito>k__BackingField +0x00000314 qword=0x0000000000000000
+  <AndarHumanoAltura>k__BackingField +0x00000318 qword=0x0000000000000000
+  ahLeitor +0x00000070 qword=0x0000000000000000
+  ahAvatar +0x00000078 qword=0x0000000000000000
+  ahPose +0x00000080 qword=0x0000000000000000
+  ahHum +0x000000C0 qword=0x0000000000000000
+  ahT +0x0000031C qword=0x0000000000000000
+  ahAltura +0x00000320 qword=0x0000000000000000
+  ahPeitoMedia +0x00000324 qword=0x0000000000000000
+  ahPeitoOk +0x00000328 qword=0x0000000000000000
+  ahAlturaOk +0x00000329 qword=0x0000000000000000
+  ahRepOk +0x0000032A qword=0x0000000000000000
+  ahRepDedo +0x00000100 qword=0x000001C630D13F60
+  ahQuadril +0x00000108 qword=0x0000000000000000
+  ahColuna +0x00000110 qword=0x0000000000000000
+  ahOmbroE +0x00000118 qword=0x0000000000000000
+  ahOmbroD +0x00000120 qword=0x0000000000000000
+  ahPe +0x00000128 qword=0x000001C633F21CC0
+  ahDedo +0x00000130 qword=0x000001C633F21C90
+  ahGuardar +0x00000138 qword=0x000001C679EC1900
+  ahGuardado +0x00000140 qword=0x000001C679EC18D0
+  posturaAndar +0x00000148 qword=0x000001C679EC18A0
+  <PosturaAndarAgora>k__BackingField +0x0000032C qword=0x0000000000000000
+  PuloVivoLigado +0x00000000 qword=0x000001C5CA2F6CF8
+  ParamPuloSobe +0x00000000 qword=0x000001C5CA2F6CF8
+  ParamPuloDesce +0x00000000 qword=0x000001C5CA2F6CF8
+  puloVivo +0x00000150 qword=0x000001C679676B40
+  <PuloDescidaAgora>k__BackingField +0x00000330 qword=0x0000000000000000
+  <PuloPinoAgora>k__BackingField +0x00000334 qword=0x0000000000000000
+  <PuloBracosAgora>k__BackingField +0x00000338 qword=0x0000000000000000
+  <PuloBracosGraus>k__BackingField +0x0000033C qword=0x0000000000000000
+  <PuloPesPresos>k__BackingField +0x00000340 qword=0x430DDE6100000000
+  puloCC +0x00000158 qword=0x0000000000000000
+  peChaoPos +0x00000160 qword=0x000001C679676B00
+  peChaoRot +0x00000168 qword=0x000001C679676AC0
+  tPeChao +0x00000344 qword=0x00000001430DDE61
+  puloVelOk +0x00000348 qword=0xFFFFFFFE00000001
+  puloAnimator +0x00000170 qword=0x000001C67A306AC0
+  camadaTroca +0x0000034C qword=0x00000001FFFFFFFE
+  PernasOssos +0x00000008 qword=0x0000000000000000
+  pernas +0x00000178 qword=0x000001C5F790E280
+  pernasOk +0x00000350 qword=0x000001CE00000001
+  quadroIK +0x00000354 qword=0x00000000000001CE
+  descidaIK +0x00000358 qword=0x0000000000000000
+  pinoIK +0x0000035C qword=0x0000000000000000
+  peRepouso +0x00000180 qword=0x000001C630D13F00
+  peRepousoOk +0x00000360 qword=0x0000000000000000
+  BracosOssos +0x00000010 qword=0x000001C5D5E8D970
+  TroncoOssos +0x00000018 qword=0x0000000000000000
+  TroncoCadeia +0x00000020 qword=0x000001C633F21D20
+  bracosCache +0x00000188 qword=0x000001C61EC32DC0
+  bracosTem +0x00000190 qword=0x000001C630D13ED0
+  troncoCache +0x00000198 qword=0x000001C679ECBCD0
+  troncoEixo +0x000001A0 qword=0x000001C679ECBC80
+  troncoTem +0x000001A8 qword=0x000001C630D13EA0
+  bracosCacheOk +0x00000361 qword=0x0000000000000000
+  bracosGrausSuave +0x00000364 qword=0x0000000000000000
+  bracosPeso +0x00000368 qword=0x3C7D2A9500000000
+  player +0x000001B0 qword=0x000001C633F207E0
+  gun +0x000001B8 qword=0x0000000000000000
+  animator +0x000001C0 qword=0x000001C67A306AC0
+  gunHolder +0x000001C8 qword=0x000001C6796F2220
+  manequim +0x000001D0 qword=0x000001C61EA447C0
+  reference +0x000001D8 qword=0x000001C6796F28E0
+  gripOffset +0x0000036C qword=0x3D75C28F3C7D2A95
+  standingShoulder +0x00000378 qword=0x3F8000003FB9999A
+  crouchShoulder +0x0000037C qword=0x3E23D70A3F800000
+  hipHold +0x00000380 qword=0xBE4CCCCD3E23D70A
+  aimHold +0x0000038C qword=0xBD23D70A3DF5C28F
+  rightHandOnGun +0x00000398 qword=0xBDA3D70A3C6E5A89
+  leftHandOnGun +0x000003A4 qword=0xBD9327BEBCCEC6E0
+  Sentado +0x000003B0 qword=0x0000000000000000
+  NoArForcado +0x000003B1 qword=0x0000000000000000
+  MaoNaRoldana +0x000003B2 qword=0x0000000000000000
+  RoldanaMao +0x000003B4 qword=0x0000000000000000
+  TrocaGiro +0x00000000 qword=0x000001C5CA2F6CF8
+  TrocaDesce +0x00000028 qword=0x000001C679EC1930
+  CoiceGiroPorGrau +0x00000000 qword=0x000001C5CA2F6CF8
+  CoiceSobePorGrau +0x00000000 qword=0x000001C5CA2F6CF8
+  CoiceGiroMax +0x00000000 qword=0x000001C5CA2F6CF8
+  CoiceSobeMax +0x00000000 qword=0x000001C5CA2F6CF8
+  CoiceVolta +0x00000000 qword=0x000001C5CA2F6CF8
+  FolgaChao +0x00000000 qword=0x000001C5CA2F6CF8
+  <CoiceGiro>k__BackingField +0x000003C0 qword=0x0000000000000000
+  <TrocaBaixada>k__BackingField +0x000003C4 qword=0x44137C0500000000
+  lastPosition +0x000003C8 qword=0x416C231A44137C05
+  lastGroundedTime +0x000003D4 qword=0x00000000430DE4FC
+  wasReloading +0x000003D8 qword=0x0000000000000000
+  holdWeight +0x000003DC qword=0x0000000000000000
+  Comemorando +0x00000034 qword=0x79676B80000001C6
+  SegurarArmaAndando1511 +0x00000035 qword=0xC679676B80000001
+  giroQuadril1511 +0x000003E0 qword=0x0000000000000000
+  aimPose +0x000003F0 qword=0x416C231A44137C05
+  armaEventos +0x000001E0 qword=0x000001C633F20540
+  reloadClipLen +0x0000040C qword=0x000000003F99999A
+  reloadAnimationWeapon +0x000001E8 qword=0x0000000000000000
+  reloadAnimationDuration +0x00000410 qword=0xFFFFFFFF00000000
+  reloadAnimationStance +0x00000414 qword=0x41BA99BEFFFFFFFF
+  coiceT +0x00000418 qword=0x3DACBB8E41BA99BE
+  coiceSubida +0x0000041C qword=0x3AA1435A3DACBB8E
+  coiceLado +0x00000420 qword=0x3CA3D70A3AA1435A
+  coiceRecuo +0x00000424 qword=0x414000003CA3D70A
+  coiceGiroMax +0x00000428 qword=0x3DA3D70A41400000
+  coiceSobeMax +0x0000042C qword=0x3CA3D70A3DA3D70A
+  coiceVolta +0x00000430 qword=0x402000003CA3D70A
+  coiceTroncoGraus +0x00000434 qword=0x0000000040200000
+  modelo +0x000001F0 qword=0x000001C67A306B00
+  modeloPos +0x00000438 qword=0x0000000000000000
+  modeloRot +0x00000444 qword=0x0000000000000000
+  emSalto +0x00000454 qword=0x41BA99BE01010000
+  mergulhando +0x00000455 qword=0x2741BA99BE010100
+  sigmaAnimations +0x00000456 qword=0x312741BA99BE0101
+  sigmaCombatant +0x000001F8 qword=0x000001C633F25000
+  gestoGel +0x00000200 qword=0x000001C6774E7700
+  TiroFrente +0x00000036 qword=0x01C679676B800000
+  DiagPoseA +0x00000208 qword=0x000001C7B56660A0
+  DiagPoseB +0x00000210 qword=0x000001C7B501C0E0
+  TiroCorre +0x00000037 qword=0x0001C679676B8000
+  QaMaoLivreBaixa +0x00000038 qword=0x000001C679676B80
+  <QaMaoLivreAplicada>k__BackingField +0x00000457 qword=0x08312741BA99BE01
+  CoiceTroncoLigado +0x00000039 qword=0x30000001C679676B
+  CoiceTroncoGraus +0x00000000 qword=0x000001C5CA2F6CF8
+  DanoTroncoGraus +0x00000000 qword=0x000001C5CA2F6CF8
+  DanoTroncoDur +0x00000000 qword=0x000001C5CA2F6CF8
+  SubidaCoice +0x00000000 qword=0x000001C5CA2F6CF8
+  coiceTroncoT +0x00000458 qword=0x3E08312741BA99BE
+  coiceTroncoDur +0x0000045C qword=0xC12000003E083127
+  danoTroncoT +0x00000460 qword=0x00000000C1200000
+  danoTroncoDir +0x00000464 qword=0x0000000000000000
+  <AnguloTroncoAgora>k__BackingField +0x00000470 qword=0x40E0000000000000
+  danoTroncoGraus +0x00000474 qword=0x3E75C28F40E00000
+  danoTroncoDur +0x00000478 qword=0xC12000003E75C28F
+  <ReacaoImpactoAte>k__BackingField +0x0000047C qword=0x00000000C1200000
+  velRecargaOk +0x00000480 qword=0xC120000000000000
+  pulouAnim +0x00000482 qword=0x0000C12000000000
+  pousoAnim +0x00000483 qword=0x200000C120000000
+  JoelhosLigado +0x0000003A qword=0xF030000001C67967
+  JoelhoGraus +0x00000000 qword=0x000001C5CA2F6CF8
+  QuadrilGraus +0x00000000 qword=0x000001C5CA2F6CF8
+  SubidaJoelho +0x00000000 qword=0x000001C5CA2F6CF8
+  DescidaJoelho +0x00000000 qword=0x000001C5CA2F6CF8
+  tPuloJoelho +0x00000484 qword=0xC1200000C1200000
+  tCaindoJoelho +0x00000488 qword=0x00000000C1200000
+  noPuloJoelho +0x0000048C qword=0x0000000000000000
+  <PesoJoelhoAgora>k__BackingField +0x00000490 qword=0x0000010100000000
+  gatilhosOk +0x00000494 qword=0x3F80000000000101
+  f2ManequimLiberado +0x0000003B qword=0xF1F030000001C679
+  BracoReferenciaM +0x00000000 qword=0x000001C5CA2F6CF8
+  SemBracoProporcional +0x0000003D qword=0xC633F1F030000001
+  escalaBraco +0x00000498 qword=0x000000003F800000
+  escalaBracoDe +0x00000218 qword=0x000001C5F4E183E0
+  YawMaximoDaPose +0x00000000 qword=0x000001C5CA2F6CF8
+  FolgaMaosNoTronco +0x00000000 qword=0x000001C5CA2F6CF8
+  FracaoAlcanceSigma +0x00000000 qword=0x000001C5CA2F6CF8
+  RecuoMaximoAlcanceSigma +0x00000000 qword=0x000001C5CA2F6CF8
+  <RecuoAlcanceSigma>k__BackingField +0x0000049C qword=0x0000000000000000
+  <AlcanceBaseSigmaAvaliado>k__BackingField +0x000004A0 qword=0x3F80000000000000
+  <AlcanceBaseSigmaViavel>k__BackingField +0x000004A1 qword=0x003F800000000000
+  QaPuloCorpo +0x0000003E qword=0x01C633F1F0300000
+  puloCorpoPeso +0x000004A4 qword=0xBF8000003F800000
+  puloCorpoArDesde +0x000004A8 qword=0x3F800000BF800000
+  <LocoRitmoAgora>k__BackingField +0x000004AC qword=0x000000003F800000
+  <LocoPesoPes>k__BackingField +0x000004B0 qword=0x0000000000000000
+  <LocoPesPresos>k__BackingField +0x000004B4 qword=0x0000000000000000
+  <LocoCorrecaoTronco>k__BackingField +0x000004B8 qword=0x0000000000000000
+  locoPreso +0x00000220 qword=0x000001C630D13E70
+  locoNoDedo +0x00000228 qword=0x000001C630D13E40
+  locoAncora +0x00000230 qword=0x000001C679676A80
+  locoDesvio +0x00000238 qword=0x000001C679676A40
+  locoAntA +0x00000240 qword=0x000001C679676A00
+  locoAntD +0x00000248 qword=0x000001C6796769C0
+  locoRepA +0x00000250 qword=0x000001C630D13E10
+  locoYA +0x00000258 qword=0x000001C630D13DE0
+  locoYD +0x00000260 qword=0x000001C630D13DB0
+  locoChao +0x00000268 qword=0x000001C630D13D80
+  locoJanT +0x00000270 qword=0x000001C61E98D540
+  locoJanA +0x00000278 qword=0x000001C61E8AE000
+  locoJanD +0x00000280 qword=0x000001C61E8BA000
+  locoMinPeA +0x00000288 qword=0x000001C630D13D50
+  locoMinPeD +0x00000290 qword=0x000001C630D13D20
+  locoJanI +0x000004BC qword=0x0000000000000000
+  locoJanN +0x000004C0 qword=0x0000000000000000
+  locoDedos +0x00000298 qword=0x000001C633F21C60
+  locoAnimador +0x000002A0 qword=0x000001C67A306AC0
+  locoAntOk +0x000004C4 qword=0x0000000000000000
+  locoRepOk +0x000004C5 qword=0x0000000000000000
+  locoPeso +0x000004C8 qword=0x0000000000000000
+  locoVelChao +0x000004CC qword=0x0000000000000000
+  locoRumoAnt +0x000004D0 qword=0x0000000000000000
+  locoOmega +0x000004DC qword=0x0000000000000001
+  locoPitchMedia +0x000004E0 qword=0x0000000000000000
+  locoRolMedia +0x000004E4 qword=0x0000000000000000
+  locoMediaOk +0x000004E8 qword=0x0000000000000000
+  locoSobe +0x000002A8 qword=0x000001C630D13CF0
+  <LocoElevacaoCm>k__BackingField +0x000004EC qword=0x0000000000000000
+  <LocoSoltosBalanco>k__BackingField +0x000004F0 qword=0x0000000000000000
+  <LocoToquesRecusados>k__BackingField +0x000004F4 qword=0xFFFFFFFF00000000
+  LocoMascara +0x00000040 qword=0x000001C633F1F030
+  locoFim +0x000002B0 qword=0x000001C679676980
+  locoFimOk +0x000002B8 qword=0x000001C630D13CC0
+  locoFimDedo +0x000002C0 qword=0x000001C630D13C90
+  locoTravaDedo +0x000002C8 qword=0x000001C630D13C60
+  locoTrava +0x000002D0 qword=0x000001C679ED2F60
+  locoFimQuadro +0x000004F8 qword=0x00000000FFFFFFFF
+  <LocoTravaCm>k__BackingField +0x000004FC qword=0x0000000000000000
+  <LocoTravaQuadros>k__BackingField +0x00000500 qword=0x0000000000000000
+  locoSprintPeso +0x00000504 qword=0x0000000000000000
+  locoCurvaLogou +0x00000508 qword=0x0000000000000000
+  locoBaciaPe +0x000002D8 qword=0x000001C679676940
+  locoBaciaPeRot +0x000002E0 qword=0x000001C679676900
+  locoBaciaCoxa +0x000002E8 qword=0x000001C6796768C0
+  <LocoCurvaAnimeGraus>k__BackingField +0x0000050C qword=0x0000000000000000
+  <LocoBaciaGraus>k__BackingField +0x00000510 qword=0x0000000000000000
+  LocoTroncoAlvo +0x00000048 qword=0x000001C633F1F000
+  locoSuave +0x00000518 qword=0x0000000000000000
+  locoSuaveT +0x00000540 qword=0x00000000BF800000
+  locoSuaveLogou +0x00000544 qword=0x0000000000000000
+  <LocoCurvaGraus>k__BackingField +0x00000548 qword=0x0000000000000000
+
+DONE

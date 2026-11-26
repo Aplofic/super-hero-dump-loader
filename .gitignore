@@ -1,0 +1,23 @@
+# Artefatos de build
+*.obj
+*.pdb
+*.ilk
+*.exp
+*.lib
+*.tlog
+*.idb
+.vs/
+
+# Capturas e arquivos temporários de teste
+esp_screen*.png
+*.tmp
+*.bak
+
+# Sondas de debug antigas (não fazem parte da entrega)
+shr_probe*.dll
+shr_cheat_probe[0-9]*.dll
+shr_dump2.dll
+shr_dump3.dll
+shr_dump4.dll
+shr_esp_probe*.dll
+shr_verify*.dll
